@@ -14,6 +14,7 @@ npm run dev
 ```bash
 npm test
 npm run build
+npm run dist:win
 ```
 
 ## התקנה ב-Windows
@@ -32,3 +33,14 @@ npm run dist:win
 `file://` של Electron וגם בשרת HTTP.
 
 במקרה חירום אמיתי פונים למבוגר שסומכים עליו ולשירותי החירום המקומיים.
+
+## מדיה וקרדיטים
+
+- `public/media/neighborhood.svg` הוא איור מקורי שנוצר במיוחד עבור המשחק; אין בו
+  סימנים מסחריים או צילום של מקום אמיתי.
+- אפקטי הקול המקומיים בתיקייה `public/audio/` מגיעים מספריית ה־SFX של Pixabay,
+  תחת [Pixabay Content License](https://pixabay.com/service/license-summary/).
+  רשימת המקורות והמטא־דאטה נשמרות ב־`public/audio/SFX-CREDITS.md` וב־
+  `public/audio/sfx-manifest.json`.
+- הצלילים מופעלים רק בעקבות פעולה או אירוע במשחק, ניתנים לכיבוי, וכוללים
+  חלופת טקסט חיה לקוראי מסך. המשחק מכבד `prefers-reduced-motion`.
