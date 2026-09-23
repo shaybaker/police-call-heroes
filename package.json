@@ -1,7 +1,7 @@
 {
   "name": "giborei-hamoked",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "משחק RTL לילדים על בחירות בטוחות ועזרה הדדית",
   "author": "גיבורי המוקד",
   "type": "module",
